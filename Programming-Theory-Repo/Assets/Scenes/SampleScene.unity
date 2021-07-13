@@ -214,7 +214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109057529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5099998, y: 1, z: 1.17}
+  m_LocalPosition: {x: 5.3, y: 1, z: 1.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 109057529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3afccee02828146b65a057b77a12c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d94db3f489e83c40aa32fb799adb3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   border: 4
@@ -583,7 +583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -4.25}
+  m_LocalPosition: {x: 0, y: 0.08, z: -8.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -724,7 +724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257672924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.24, y: 1, z: 1.52}
+  m_LocalPosition: {x: -4.09, y: 1, z: 1.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -739,10 +739,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1257672924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3afccee02828146b65a057b77a12c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 934e723d1a22a9f4a92dbe20f6da2ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  border: 5
+  border: 4
   speed: 2
 --- !u!1 &1393835161
 GameObject:
@@ -849,10 +849,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1393835161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3afccee02828146b65a057b77a12c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ecebaee76586a440babc16b37dec6ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  border: 5
+  border: 4
   speed: 2
 --- !u!1 &1573612043
 GameObject:
