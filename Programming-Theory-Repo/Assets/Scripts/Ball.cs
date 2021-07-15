@@ -14,11 +14,11 @@ public class Ball : Unit
         //Debug.Log("Jump");
         transform.Translate(Vector3.right * Time.deltaTime * speed, Space.World);
 
-        if (transform.position.x > border && speed > 0)
+        if (transform.position.x > borderGet && speed > 0)
         {
             speed *= -1;
         }
-        else if (transform.position.x < -border && speed < 0)
+        else if (transform.position.x < -borderGet && speed < 0)
         {
             speed *= -1;
         }

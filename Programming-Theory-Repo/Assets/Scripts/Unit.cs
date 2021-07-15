@@ -4,8 +4,9 @@ using UnityEngine;
 
 public abstract class Unit : MonoBehaviour
 {
-    public float border = 4f;
+    private float border = 4f;
     public float speed = 2f;
+    public float borderGet { get { return border; }  set { border = value; } }//hurray it worked
 
     void Update()
     {

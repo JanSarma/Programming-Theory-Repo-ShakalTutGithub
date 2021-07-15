@@ -6,6 +6,6 @@ public class Box : Unit
 {
     protected override void Rotate()
     {
-        throw new System.NotImplementedException();
+        
     }
 }
