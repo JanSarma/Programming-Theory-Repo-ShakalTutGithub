@@ -6,6 +6,7 @@ public abstract class Unit : MonoBehaviour
 {
     private float border = 4f;
     public float speed = 2f;
+    // ENCAPSULATION
     public float borderGet { get { return border; }  set { border = value; } }//hurray it worked
 
     void Update()
@@ -15,6 +16,7 @@ public abstract class Unit : MonoBehaviour
         
     }
 
+    // ABSTRACTION
     public virtual void Jump()
     {
 
